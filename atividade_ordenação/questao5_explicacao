@@ -1,0 +1,16 @@
+// Complexidade de tempo
+
+Selection Sort
+Caso Médio e Pior: A complexidade de tempo do Selection Sort é 
+𝑂(𝑛2)
+tanto no caso médio quanto no pior caso. Isso ocorre porque, independentemente da ordem dos elementos, o algoritmo percorre o vetor
+para encontrar o menor (ou maior) elemento e o coloca na posição correta, exigindo aproximadamente 𝑛 2/2 comparações e n trocas.
+Vantagens: O Selection Sort pode ser mais vantajoso em cenários onde o número de trocas deve ser minimizado, pois ele realiza no
+máximo 𝑛−1 trocas, o que pode ser útil para estruturas de dados que têm um custo alto para trocas.
+
+Insertion Sort
+Caso Médio e Pior: A complexidade de tempo do Insertion Sort é 𝑂(𝑛2) no caso médio e pior caso. No pior caso, o algoritmo precisa
+mover cada elemento várias posições para a esquerda, o que ocorre em uma lista ordenada de forma inversa.
+Vantagens: O Insertion Sort é mais eficiente do que o Selection Sort em casos em que o vetor já está parcialmente ordenado, pois,
+no caso melhor (vetor ordenado), sua complexidade é O(n). Ele também realiza menos comparações em média, sendo mais vantajoso para
+listas pequenas ou parcialmente ordenadas.
